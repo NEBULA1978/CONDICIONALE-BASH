@@ -29,7 +29,7 @@ elif [ $accion -eq 2 ]; then
   echo -e "\n"
 
   echo -e "Introduce el nombre del directorio de destino:\n"
-  cd ~
+  # cd ~
   for dir in $(ls); do
     echo "$dir: $(pwd)/$dir"
   done
