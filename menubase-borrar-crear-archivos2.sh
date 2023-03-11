@@ -64,3 +64,18 @@ echo "Introduce A o B: "
 read terminacion
 
 rm ${nombre}[^${terminacion}].txt
+
+
+echo "//////////////////////////////"
+
+
+ echo "Borrar los ficheros fAB.txt o fAC.txt"
+echo "Borra todos los ficheros que empiecen por una f seguidos de AB o AC y terminen .txt"
+
+echo "Introduce las letras que quieres que vengan después de la f: "
+read letras
+
+rm f{$letras}.txt
+
+
+echo "//////////////////////////////"
